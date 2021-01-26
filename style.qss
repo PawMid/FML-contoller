@@ -1,0 +1,28 @@
+QWidget{
+        background-color: rgb(50, 50, 50);
+        color: white;
+        /*border-style: solid;*/
+        /*border-width: 1px;*/
+        /*border-color: red;*/
+}
+
+QPushButton{
+        background-color: rgb(70, 70, 70);
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+    padding: 5px;
+        }
+
+QPushButton:hover:enabled{
+        background-color: rgb(100, 100, 100);
+}
+
+QPushButton:disabled{
+        background-color: rgb(150, 150, 150);
+        }
+
+QComboBox{
+        padding: 2px;
+}
